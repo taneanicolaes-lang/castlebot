@@ -1,0 +1,15 @@
+{
+  "name": "hellstorm-telegram-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram webhook bot for the HELLSTORM guild, deployed to Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "configure": "node scripts/configure-bot.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.154.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "bitva-zamkov-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram-бот гильдии HELLSTORM для игры «Битва замков»",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "grammy": "^1.36.3"
+  }
+}
